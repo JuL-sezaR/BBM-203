@@ -1,0 +1,31 @@
+Initialized 2 teams.
+Team 0 capacity set to 50.
+Team 1 capacity set to 80.
+Request S101 added to SUPPLY queue.
+Request S102 added to SUPPLY queue.
+Request R201 added to RESCUE queue.
+Request R202 added to RESCUE queue.
+Request S102 removed from queues.
+Error: Request X999 not found.
+Team 0 assigned 2 requests (1 SUPPLY, 1 RESCUE), total workload 26.
+TEAM 0 STACK:
+R201 IZMIR 3 MEDIUM 4
+S101 ANKARA WATER 20 3
+Team 0 dispatched with workload 26.
+Error: Team 0 has no active mission.
+SUPPLY QUEUE:
+RESCUE QUEUE:
+R202 ERZINCAN 5 HIGH 5
+Request S103 added to SUPPLY queue.
+Request R203 added to RESCUE queue.
+Team 1 assigned 3 requests (1 SUPPLY, 2 RESCUE), total workload 79.
+TEAM 1 STACK:
+R203 HATAY 8 HIGH 4
+R202 ERZINCAN 5 HIGH 5
+S103 HATAY FOOD 40 5
+System cleared.
+SUPPLY QUEUE:
+RESCUE QUEUE:
+Error: Team 1 has no active mission.
+TEAM 1 STACK:
+Error: Unknown command 'FLY_TEAM'.

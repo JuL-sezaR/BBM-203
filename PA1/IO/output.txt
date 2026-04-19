@@ -1,0 +1,115 @@
+Wagon [ID:701 | Cargo:MAIL | Dest:IZMIR | Weight:115 | MaxCoupler:2220] added to yard.
+Wagon [ID:702 | Cargo:LIVESTOCK | Dest:IZMIR | Weight:140 | MaxCoupler:1180] added to yard.
+Wagon [ID:703 | Cargo:COAL | Dest:ESKISEHIR | Weight:65 | MaxCoupler:200] added to yard.
+Wagon [ID:704 | Cargo:MAIL | Dest:ESKISEHIR | Weight:170 | MaxCoupler:250] added to yard.
+Wagon [ID:705 | Cargo:HAZARDOUS | Dest:IZMIR | Weight:175 | MaxCoupler:150] added to yard.
+--- classification Yard ---
+Destination ANKARA:
+Destination IZMIR:
+  CargoType HAZARDOUS: W705(175ton)
+  CargoType LIVESTOCK: W702(140ton)
+  CargoType MAIL: W701(115ton)
+Destination ESKISEHIR:
+  CargoType COAL: W703(65ton)
+  CargoType MAIL: W704(170ton)
+Destination ADANA:
+Destination OTHERS:
+Wagon 705 detached from Wagon List. 
+Train Train_IZMIR_1 assembled with W702(140ton) - W701(115ton) - W705(175ton) wagons.
+[Track 1] Train_IZMIR_1(430ton)-W702(140ton) - W701(115ton) - W705(175ton) -> 
+Wagon 703 detached from Wagon List. 
+Wagon 703 removed.
+--- classification Yard ---
+Destination ANKARA:
+Destination IZMIR:
+Destination ESKISEHIR:
+  CargoType MAIL: W704(170ton)
+Destination ADANA:
+Destination OTHERS:
+Train Train_ESKISEHIR_1 assembled with W704(170ton) wagons.
+[Track 2] Train_ESKISEHIR_1(170ton)-W704(170ton) -> 
+Wagon [ID:706 | Cargo:MAIL | Dest:IZMIR | Weight:190 | MaxCoupler:1350] added to yard.
+Wagon [ID:707 | Cargo:MAIL | Dest:IZMIR | Weight:130 | MaxCoupler:1340] added to yard.
+Wagon [ID:708 | Cargo:MAIL | Dest:IZMIR | Weight:160 | MaxCoupler:1320] added to yard.
+Wagon [ID:736 | Cargo:COAL | Dest:IZMIR | Weight:80 | MaxCoupler:1230] added to yard.
+Wagon [ID:737 | Cargo:COAL | Dest:IZMIR | Weight:240 | MaxCoupler:1640] added to yard.
+Wagon [ID:738 | Cargo:COAL | Dest:IZMIR | Weight:60 | MaxCoupler:1330] added to yard.
+--- classification Yard ---
+Destination ANKARA:
+Destination IZMIR:
+  CargoType COAL: W737(240ton) - W736(80ton) - W738(60ton)
+  CargoType MAIL: W706(190ton) - W708(160ton) - W707(130ton)
+Destination ESKISEHIR:
+Destination ADANA:
+Destination OTHERS:
+Train Train_IZMIR_2 assembled with W737(240ton) - W736(80ton) - W738(60ton) - W706(190ton) - W708(160ton) - W707(130ton) wagons.
+[Track 1] Train_IZMIR_1(430ton)-W702(140ton) - W701(115ton) - W705(175ton) -> Train_IZMIR_2(860ton)-W737(240ton) - W736(80ton) - W738(60ton) - W706(190ton) - W708(160ton) - W707(130ton) -> 
+Wagon [ID:709 | Cargo:LIVESTOCK | Dest:IZMIR | Weight:130 | MaxCoupler:240] added to yard.
+Wagon [ID:790 | Cargo:COAL | Dest:IZMIR | Weight:80 | MaxCoupler:200] added to yard.
+Wagon [ID:711 | Cargo:OIL | Dest:IZMIR | Weight:100 | MaxCoupler:160] added to yard.
+Train Train_IZMIR_3 assembled with W709(130ton) - W711(100ton) - W790(80ton) wagons.
+[Track 1] Train_IZMIR_1(430ton)-W702(140ton) - W701(115ton) - W705(175ton) -> Train_IZMIR_2(860ton)-W737(240ton) - W736(80ton) - W738(60ton) - W706(190ton) - W708(160ton) - W707(130ton) -> Train_IZMIR_3(310ton)-W709(130ton) - W711(100ton) - W790(80ton) -> 
+Train Train_IZMIR_1 departed from Track IZMIR.
+Dispatching Train_IZMIR_1 (430 tons).
+[Track 1] Train_IZMIR_2(860ton)-W737(240ton) - W736(80ton) - W738(60ton) - W706(190ton) - W708(160ton) - W707(130ton) -> Train_IZMIR_3(310ton)-W709(130ton) - W711(100ton) - W790(80ton) -> 
+Wagon [ID:712 | Cargo:MAIL | Dest:ANKARA | Weight:190 | MaxCoupler:150] added to yard.
+Wagon [ID:713 | Cargo:MAIL | Dest:ANKARA | Weight:220 | MaxCoupler:190] added to yard.
+Wagon [ID:714 | Cargo:MAIL | Dest:ANKARA | Weight:260 | MaxCoupler:170] added to yard.
+Train Train_ANKARA_1 split due to coupler overload before Wagon 713
+W713(220ton) - W712(190ton)
+Train Train_ANKARA_1_split_1 assembled after split with W713(220ton) - W712(190ton) wagons.
+Train Train_ANKARA_1 assembled with W714(260ton) wagons.
+[Track 0] Train_ANKARA_1_split_1(410ton)-W713(220ton) - W712(190ton) -> Train_ANKARA_1(260ton)-W714(260ton) -> 
+Wagon [ID:715 | Cargo:COAL | Dest:ADANA | Weight:100 | MaxCoupler:130] added to yard.
+Wagon [ID:716 | Cargo:COAL | Dest:ADANA | Weight:150 | MaxCoupler:110] added to yard.
+Wagon [ID:718 | Cargo:COAL | Dest:ADANA | Weight:230 | MaxCoupler:150] added to yard.
+Wagon [ID:717 | Cargo:COAL | Dest:ADANA | Weight:180 | MaxCoupler:130] added to yard.
+Train Train_ADANA_1 split due to coupler overload before Wagon 716
+W716(150ton) - W715(100ton)
+Train Train_ADANA_1_split_1 assembled after split with W716(150ton) - W715(100ton) wagons.
+Train Train_ADANA_1 split due to coupler overload before Wagon 717
+W717(180ton)
+Train Train_ADANA_1_split_2 assembled after split with W717(180ton) wagons.
+Train Train_ADANA_1 assembled with W718(230ton) wagons.
+[Track 3] Train_ADANA_1_split_1(250ton)-W716(150ton) - W715(100ton) -> Train_ADANA_1_split_2(180ton)-W717(180ton) -> Train_ADANA_1(230ton)-W718(230ton) -> 
+Auto dispatch enabled
+Wagon [ID:719 | Cargo:LIVESTOCK | Dest:ESKISEHIR | Weight:600 | MaxCoupler:200] added to yard.
+Wagon [ID:729 | Cargo:MAIL | Dest:ESKISEHIR | Weight:1353 | MaxCoupler:220] added to yard.
+Wagon [ID:721 | Cargo:OIL | Dest:ESKISEHIR | Weight:130 | MaxCoupler:160] added to yard.
+Train Train_ESKISEHIR_2 split due to coupler overload before Wagon 719
+W719(600ton) - W721(130ton)
+Train Train_ESKISEHIR_2_split_1 assembled after split with W719(600ton) - W721(130ton) wagons.
+Train Train_ESKISEHIR_1 departed from Track ESKISEHIR.
+Auto-dispatch: departing Train_ESKISEHIR_1 to make room.
+Train Train_ESKISEHIR_2_split_1 departed from Track ESKISEHIR.
+Auto-dispatch: departing Train_ESKISEHIR_2_split_1 to make room.
+Train Train_ESKISEHIR_2 assembled with W729(1353ton) wagons.
+--- classification Yard ---
+Destination ANKARA:
+Destination IZMIR:
+Destination ESKISEHIR:
+Destination ADANA:
+Destination OTHERS:
+[Track 2] Train_ESKISEHIR_2(1353ton)-W729(1353ton) -> 
+Auto dispatch disabled
+Train Train_IZMIR_2 departed from Track IZMIR.
+Dispatching Train_IZMIR_2 (860 tons).
+Train Train_ESKISEHIR_2 departed from Track ESKISEHIR.
+Dispatching Train_ESKISEHIR_2 (1353 tons).
+Train Train_IZMIR_3 departed from Track IZMIR.
+Dispatching Train_IZMIR_3 (310 tons).
+Error: No trains to dispatch from track IZMIR.
+Error: Unknown command 'UNKNOWN_COMMAND'
+Error: Invalid ADD_WAGON parameters.
+Train Train_ANKARA_1_split_1 departed from Track ANKARA.
+Train Train_ANKARA_1 departed from Track ANKARA.
+Train Train_ADANA_1_split_1 departed from Track ADANA.
+Train Train_ADANA_1_split_2 departed from Track ADANA.
+Train Train_ADANA_1 departed from Track ADANA.
+System cleared.
+--- classification Yard ---
+Destination ANKARA:
+Destination IZMIR:
+Destination ESKISEHIR:
+Destination ADANA:
+Destination OTHERS:

@@ -1,0 +1,48 @@
+# Add artifacts
+ADD_ARTIFACT 101 TabletA 7 300
+ADD_ARTIFACT 102 SteleB 4 120
+ADD_ARTIFACT 103 ReliefC 9 500
+ADD_ARTIFACT 104 MaskD 6 250
+
+# Hire researchers
+HIRE_RESEARCHER Alice 2
+HIRE_RESEARCHER Mehmet 1
+HIRE_RESEARCHER Zeynep 3
+
+# Requests
+REQUEST Alice 101
+REQUEST Alice 102
+REQUEST Mehmet 103
+
+# Attempt to exceed capacity
+REQUEST Mehmet 104
+
+# Returning artifacts
+RETURN Alice 101
+
+# Request again (tests usageCount -> updateValueBasedOnUsage)
+REQUEST Alice 101
+
+# Print unassigned artifacts
+PRINT_UNASSIGNED
+
+# Match rarity >= 7
+MATCH_RARITY 7
+
+# Return everything from Alice
+RETURN_ALL Alice
+
+# Print stats
+PRINT_STATS
+
+# Remove an artifact
+REMOVE_ARTIFACT 104
+
+# Fire researcher
+FIRE_RESEARCHER Mehmet
+
+# Print unassigned one more time
+PRINT_UNASSIGNED
+
+# Unknown command test
+FLY_ARTIFACT 999

@@ -1,0 +1,40 @@
+Artifact 101 added.
+Artifact 102 added.
+Artifact 103 added.
+Artifact 104 added.
+Researcher Alice hired.
+Researcher Mehmet hired.
+Researcher Zeynep hired.
+Artifact 101 assigned to Alice.
+Artifact 102 assigned to Alice.
+Artifact 103 assigned to Mehmet.
+Error: Researcher Mehmet is at full capacity.
+Artifact 101 returned by Alice.
+Artifact 101 assigned to Alice.
+Unassigned artifacts:
+104 MaskD 6 250
+=== MATCH_RARITY 7 ===
+101 TabletA 7 321 ASSIGNED:Alice
+103 ReliefC 9 509 ASSIGNED:Mehmet
+All artifacts returned by Alice.
+=== SYSTEM STATISTICS ===
+Artifacts: 4
+Researchers: 3
+Average rarity: 6
+Average load: 0
+Researchers:
+Mehmet 1 1
+Alice 2 0
+Zeynep 3 0
+Artifacts:
+101 TabletA 7 321 UNASSIGNED
+104 MaskD 6 250 UNASSIGNED
+103 ReliefC 9 509 Mehmet
+102 SteleB 4 124 UNASSIGNED
+Artifact 104 removed.
+Researcher Mehmet fired.
+Unassigned artifacts:
+101 TabletA 7 321
+102 SteleB 4 124
+103 ReliefC 9 509
+Error: Unknown command 'FLY_ARTIFACT'.
